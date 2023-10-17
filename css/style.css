@@ -1,0 +1,73 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 5rem auto;
+  padding: 2rem 1rem;
+  border: 8px solid rgb(255, 145, 0);
+  border-radius: 20px;
+}
+form input {
+  margin: auto;
+  width: 70%;
+  padding: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid rgb(175, 175, 175);
+  border-radius: 15px;
+  color: rgb(70, 156, 255);
+}
+form .btn__submit {
+  margin: auto;
+  width: 40%;
+  padding: 6px 12px;
+  background: none;
+  color: rgb(255, 145, 0);
+  border: 4px solid rgb(255, 145, 0);
+  border-radius: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  transition-duration: 0.25s;
+}
+form .btn__submit:hover {
+  color: white;
+  background: rgb(255, 145, 0);
+  border: 4px solid white;
+}
+
+.true {
+  margin: auto;
+  display: none;
+  align-items: center;
+  gap: 1rem;
+}
+.true i {
+  color: green;
+  font-size: 24px;
+}
+.true p {
+  color: green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.false {
+  margin: auto;
+  display: none;
+  align-items: center;
+  gap: 1rem;
+}
+.false i {
+  color: red;
+  font-size: 24px;
+}
+.false p {
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
